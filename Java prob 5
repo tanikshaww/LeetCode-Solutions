@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner (System.in);
+      double[] numbers = new double[7];
+      for (int i = 0; i < 7; i++) {
+        numbers[i] = sc.nextDouble();
+      }
+      for(int i = 0; i < 7; i++) {
+        System.out.println(numbers[i]);
+      }
+      System.out.println();
+      for (int i = 6; i >= 0; i--) {
+        System.out.println(numbers[i]);
+      }
+    }
+}
